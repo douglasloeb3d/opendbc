@@ -313,8 +313,7 @@ BO_ 133 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 119 vehicle speed 1: 8 XXX
- SG_ NEW_SIGNAL_1 : 0|8@1+ (1,0) [0|255] "" XXX
+BO_ 119 vehicle speed 2: 8 XXX
 
 BO_TX_BU_ 228 : NEO,ADAS;
 BO_TX_BU_ 506 : NEO,ADAS;
