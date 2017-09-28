@@ -64,3 +64,5 @@ BO_ 359 NEW_MSG_4: 8 XXX
 BO_ 534 abs reluctor: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 125 brake_pedal: 8 XXX
