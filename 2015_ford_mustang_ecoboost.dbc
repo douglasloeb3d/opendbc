@@ -33,9 +33,13 @@ NS_ :
 
 BS_:
 
-BU_: 
+BU_: XXX
 
 
-BO_ 535 wheel_speed_1: 8 XXX
+BO_ 535 wheel_speed: 8 XXX
+ SG_ wheelspeed3 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ wheelspeed2 : 23|8@0+ (1,0) [0|255] "" XXX
+ SG_ wheelspeed4 : 55|8@0+ (1,0) [0|255] "" XXX
+ SG_ wheelspeed1 : 7|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 133 steering_angle_1: 8 XXX
+BO_ 133 steering_angle_2: 8 XXX
