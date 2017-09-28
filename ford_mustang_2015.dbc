@@ -306,9 +306,13 @@ BO_ 1601 XXX_33: 8 XXX
 
 BO_ 133 steering angle 1 ?: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_3 : 47|4@0+ (1,0) [0|15] "" XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 535 wheel speed sensor 2: 8 XXX
+
+BO_ 516 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 36|5@0+ (1,0) [0|31] "" XXX
 
 BO_TX_BU_ 228 : NEO,ADAS;
 BO_TX_BU_ 506 : NEO,ADAS;
