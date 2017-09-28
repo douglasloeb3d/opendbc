@@ -43,3 +43,4 @@ BO_ 535 wheel_speed: 8 XXX
  SG_ wheelspeed1 : 7|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 133 steering_angle_2: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
