@@ -56,7 +56,7 @@ BO_ 304 GAS_PEDAL2: 8 PCM
 BO_ 316 GAS_PEDAL: 8 PCM
  SG_ CAR_GAS : 39|8@0+ (1,0) [0|255] "" NEO
 
-BO_ 342 STEERING_SENSORS: 6 EPS
+BO_ 342 undefined: 6 EPS
  SG_ STEER_ANGLE : 7|16@0- (-0.1,0) [-500|500] "deg" NEO
  SG_ STEER_ANGLE_RATE : 23|16@0- (1,0) [-3000|3000] "deg/s" NEO
  SG_ COUNTER : 45|2@0+ (1,0) [0|3] "" NEO
@@ -299,19 +299,16 @@ BO_ 1365 XXX_31: 5 XXX
 BO_ 1600 XXX_32: 5 XXX
 
 BO_ 1601 XXX_33: 8 XXX
-
-BO_ 535 Wheel Speed Sensors: 8 XXX
- SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
-
-BO_ 516 throttle related (commanded?): 8 XXX
  SG_ NEW_SIGNAL_1 : 7|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_2 : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 31|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 133 NEW_MSG_3: 8 XXX
+BO_ 133 steering angle 1 ?: 8 XXX
  SG_ NEW_SIGNAL_2 : 39|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 535 wheel speed sensor 2: 8 XXX
 
 BO_TX_BU_ 228 : NEO,ADAS;
 BO_TX_BU_ 506 : NEO,ADAS;
@@ -333,4 +330,4 @@ VAL_ 506 CHIME 4 "double_chime" 3 "single_chime" 2 "continuous_chime" 1 "repeati
 VAL_ 506 FCW 3 "fcw" 2 "fcw" 1 "fcw" 0 "no_fcw" ;
 VAL_ 780 HUD_LEAD 3 "no_car" 2 "solid_car" 1 "dashed_car" 0 "no_car" ;
 VAL_ 829 BEEP 3 "single_beep" 2 "triple_beep" 1 "repeated_beep" 0 "no_beep" ;
-CM_ "CHFFR_METRIC 342 STEER_ANGLE STEER_ANGLE 0.36 180; CHFFR_METRIC 380 ENGINE_RPM ENGINE_RPM 1 0; CHFFR_METRIC 804 ENGINE_TEMPERATURE ENGINE_TEMPERATURE 1 0""""""
+CM_ "CHFFR_METRIC 342 STEER_ANGLE STEER_ANGLE 0.36 180; CHFFR_METRIC 380 ENGINE_RPM ENGINE_RPM 1 0; CHFFR_METRIC 804 ENGINE_TEMPERATURE ENGINE_TEMPERATURE 1 0"""""""
