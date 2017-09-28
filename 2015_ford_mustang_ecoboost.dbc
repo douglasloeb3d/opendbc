@@ -49,3 +49,18 @@ BO_ 133 steering_angle_2: 8 XXX
 BO_ 516 engine_rpm: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|16@0+ (1,0) [0|65535] "" XXX
  SG_ NEW_SIGNAL_2 : 31|16@0+ (1.3,0) [0|65535] "rpm" XXX
+
+BO_ 146 NEW_MSG_1: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
+
+BO_ 145 NEW_MSG_2: 8 XXX
+
+BO_ 118 NEW_MSG_3: 8 XXX
+ SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 359 NEW_MSG_4: 8 XXX
+
+BO_ 534 abs reluctor: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
