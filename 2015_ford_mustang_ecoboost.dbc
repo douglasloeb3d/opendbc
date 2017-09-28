@@ -37,10 +37,10 @@ BU_: XXX
 
 
 BO_ 535 wheel_speed: 8 XXX
- SG_ wheelspeed3 : 39|8@0+ (1,0) [0|255] "" XXX
- SG_ wheelspeed2 : 23|8@0+ (1,0) [0|255] "" XXX
- SG_ wheelspeed4 : 55|8@0+ (1,0) [0|255] "" XXX
- SG_ wheelspeed1 : 7|8@0+ (1,0) [0|255] "" XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_2 : 23|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_3 : 39|16@0+ (1,0) [0|65535] "" XXX
+ SG_ NEW_SIGNAL_4 : 55|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 133 steering_angle_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
