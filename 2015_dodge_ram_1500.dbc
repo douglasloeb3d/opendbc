@@ -41,3 +41,10 @@ BO_ 292 abs_reluctors: 8 XXX
  SG_ NEW_SIGNAL_2 : 15|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_3 : 23|8@0+ (1,0) [0|255] "" XXX
  SG_ NEW_SIGNAL_4 : 31|8@0+ (1,0) [0|255] "" XXX
+
+BO_ 284 NEW_MSG_1: 8 XXX
+
+BO_ 760 NEW_MSG_2: 8 XXX
+
+BO_ 258 steering_angle: 8 XXX
+ SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
