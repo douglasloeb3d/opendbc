@@ -47,8 +47,10 @@ BO_ 133 steering_angle_2: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
 
 BO_ 516 throttle_pedal_position_and_rpm: 8 XXX
- SG_ throttle_pedal_position : 15|16@0+ (0.07,0) [0|8000] "" XXX
  SG_ Rpm : 31|16@0+ (2.1,0) [0|65535] "rpm" XXX
+ SG_ NEW_SIGNAL_1 : 0|2@1+ (1,0) [0|3] "" XXX
+ SG_ throttle_pedal_position : 15|8@0+ (0.07,0) [0|8000] "" XXX
+ SG_ commanded_throttle_intensity : 23|8@0+ (1,0) [0|255] "" XXX
 
 BO_ 146 steering_related: 8 XXX
  SG_ NEW_SIGNAL_1 : 7|16@0+ (1,0) [0|65535] "" XXX
