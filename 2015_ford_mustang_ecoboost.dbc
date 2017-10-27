@@ -63,7 +63,8 @@ BO_ 145 steering_related: 8 XXX
 BO_ 118 NEW_MSG_3: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (1,0) [0|255] "" XXX
 
-BO_ 359 NEW_MSG_4: 8 XXX
+BO_ 359 Brake_related: 8 XXX
+ SG_ Brake : 14|7@0+ (1,0) [0|3] "" XXX
 
 BO_ 125 brake_pedal: 8 XXX
  SG_ NEW_SIGNAL_1 : 15|8@0+ (0.3,0) [0|100] "percent" XXX
